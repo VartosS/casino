@@ -1,0 +1,736 @@
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 492, in answer
+    primeid = message.text.split(" ")[1]
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 515, in answer
+    if newbalance[1] in base[4] or base[0] in admins:
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 516, in answer
+    cur.execute("UPDATE bottable SET balance = (?) WHERE id = (?)", (newbalance[2], newbalance[1]))
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 500, in answer
+    primeid = message.text.split(" ")[1]
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\casino3\casino.py", line 313, in answer
+    response = response.json()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\casino3\casino.py", line 440, in answer
+    bot.send_message(message.chat.id,"У вас нет рефералов", keyboard1worker)
+  File "C:\Python37\lib\site-packages\telebot\__init__.py", line 707, in send_message
+    reply_markup, parse_mode, disable_notification, timeout))
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 206, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 113, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 140, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 403. Description: Forbidden: bot was blocked by the user
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\casino3\casino.py", line 417, in answer
+    bot.send_message(message.chat.id, "Фейковый номер: "+ base[13] + "\n\nСкрины для убедительности: "+screens, keyboard1worker)
+  File "C:\Python37\lib\site-packages\telebot\__init__.py", line 707, in send_message
+    reply_markup, parse_mode, disable_notification, timeout))
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 206, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 113, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 140, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 403. Description: Forbidden: bot was blocked by the user
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\casino3\casino.py", line 492, in answer
+    primeid = message.text.split(" ")[1]
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python37\lib\http\client.py", line 1369, in getresponse
+    response.begin()
+  File "C:\Python37\lib\http\client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python37\lib\http\client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Python37\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Python37\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Python37\lib\site-packages\urllib3\util\retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python37\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 337, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\casino3\casino.py", line 874, in <module>
+    bot.polling()
+  File "C:\Python37\lib\site-packages\telebot\__init__.py", line 455, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout)
+  File "C:\Python37\lib\site-packages\telebot\__init__.py", line 513, in __threaded_polling
+    raise e
+  File "C:\Python37\lib\site-packages\telebot\__init__.py", line 478, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Python37\lib\site-packages\telebot\util.py", line 88, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python37\lib\site-packages\telebot\util.py", line 69, in run
+    task(*args, **kwargs)
+  File "C:\Python37\lib\site-packages\telebot\__init__.py", line 295, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout, long_polling_timeout = long_polling_timeout)
+  File "C:\Python37\lib\site-packages\telebot\__init__.py", line 265, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 248, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 109, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Python37\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python37\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python37\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\casino3\casino.py", line 476, in answer
+    bot.send_message(message.chat.id, "Введите сумму вывода\nУ вас на балансе "+str(round(base[1],2)) + " руб", getkeyboard(base[10],base[0]))
+  File "C:\Python37\lib\site-packages\telebot\__init__.py", line 707, in send_message
+    reply_markup, parse_mode, disable_notification, timeout))
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 206, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 113, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Python37\lib\site-packages\telebot\apihelper.py", line 140, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 403. Description: Forbidden: bot was blocked by the user
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Python37\lib\site-packages\urllib3\connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "C:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 429, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "C:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 472, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Python37\lib\site-packages\urllib3\util\retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python37\lib\site-packages\urllib3\packages\six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Python37\lib\site-packages\urllib3\connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "C:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 429, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "C:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 472, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', TimeoutError(10060, 'Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера', None, 10060, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\casino3\casino.py", line 311, in answer
+    params=parameters)
+  File "C:\Python37\lib\site-packages\requests\sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Python37\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python37\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python37\lib\site-packages\requests\adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', TimeoutError(10060, 'Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера', None, 10060, None))
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Python37\lib\site-packages\urllib3\connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "C:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 429, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "C:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 472, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Python37\lib\site-packages\urllib3\util\retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python37\lib\site-packages\urllib3\packages\six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python37\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Python37\lib\site-packages\urllib3\connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "C:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 429, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "C:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 472, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', TimeoutError(10060, 'Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера', None, 10060, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\casino3\casino.py", line 311, in answer
+    params=parameters)
+  File "C:\Python37\lib\site-packages\requests\sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Python37\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python37\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python37\lib\site-packages\requests\adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', TimeoutError(10060, 'Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера', None, 10060, None))
+
